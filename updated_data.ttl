@@ -1,0 +1,12 @@
+
+<http://example.org/Student1> a <http://example.org/Student>;
+  <http://example.org/name> "John Doe";
+  <http://example.org/email> "john.doe@example.com";
+  <http://example.org/phone> "+1-123-456-7890";
+  <http://example.org/address> "123 Main St, Cityville" .
+
+<http://example.org/NewStudent> a "http://example.org/Student";
+  <http://example.org/name> "New Student";
+  <http://example.org/email> "new.student@example.com";
+  <http://example.org/phone> "+1-123-456-7890";
+  <http://example.org/address> "789 Elm St, Villagetown" .

@@ -1,0 +1,21 @@
+@prefix ex: <http://tech.hidetora/>.
+
+# Individual students
+ex:Student1 a ex:Student ;
+    ex:name "John Doe" ;
+    ex:email "john.doe@example.com" ;
+    ex:phone "+1-123-456-7890" ;
+    ex:address "123 Main St, Cityville".
+
+ex:Student2 a ex:Student ;
+    ex:name "Jane Smith" ;
+    ex:email "jane.smith@example.com" ;
+    ex:phone "+1-987-654-3210" ;
+    ex:address "456 Oak St, Townsville".
+
+# Vocabulary definition
+ex:Student a rdf:Class.
+ex:name a rdf:Property.
+ex:email a rdf:Property.
+ex:phone a rdf:Property.
+ex:address a rdf:Property.
